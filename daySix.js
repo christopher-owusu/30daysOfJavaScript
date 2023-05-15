@@ -309,7 +309,66 @@ for(let i = 0; i < 5; i++) {
     console.log(`rgb(${Math.random(i).toString(255).substring(2, 5)})`)
 }
 
+// let countriesToUpper = []
+// for (let i = 0; i < countries.length; i++) {
+//     countriesToUpper.push(countries[i].toUpperCase())
+// }
+// console.log(countriesToUpper)
 
+// let countriesLenght = []
+// for (let i = 0; i < countries.length; i++) {
+//     countriesLenght.push(countries[i].length)
+// }
+// console.log(countriesLenght)
+
+// let countriesLenght = []
+// for (let i = 0; i < countries.length; i++) {
+//     let firstThreeElem = countries[i].slice(0, 3).toUpperCase()
+//     countriesLenght.push(`[${countries[i]}, ${firstThreeElem}, ${countries[i].length}]`)
+// }
+// console.log(countriesLenght)
+
+
+// contains 'land'
+// let newArr = []
+// for (let i = 0; i < countries.length; i++) {
+//     if (countries[i].match('land')) {
+//         newArr.push(countries[i])
+//     }
+// }
+// console.log(newArr)
+
+
+// endsWith 'ia'
+// let newArr = []
+// for (let i = 0; i < countries.length; i++) {
+//     if (countries[i].endsWith('ia')) {
+//         newArr.push(countries[i])
+//     }
+// }
+// console.log(newArr)
+
+
+// largest number
+let newArr = []
+for (let i = 0; i < countries.length; i++) {
+    let len = countries[i].length
+    if (len > countries[i].length) {
+        countries[i].length = len
+        }
+    newArr.push(countries[i])
+}
+console.log(newArr)
+
+
+// has exactly 5 charaters
+// let newArr = []
+// for (let i = 0; i < countries.length; i++) {
+//     if (countries[i].length == 5) {
+//         newArr.push(countries[i])
+//     }
+// }
+// console.log(newArr)
 
 
 
